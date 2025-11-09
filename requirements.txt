@@ -1,0 +1,23 @@
+# Core RL environment
+gymnasium>=0.29,<1
+
+# Rendering / interaction
+pygame>=2.1.0
+
+# Numerical computing
+numpy>=1.23,<2
+
+# Notebook execution from UI
+papermill>=2.5.0
+
+# Optional: icon scaling (agent/start/goal images). Safe to omit if not needed.
+Pillow>=9.0
+
+# Optional (uncomment if you run notebooks interactively outside papermill)
+# jupyter
+# ipykernel
+
+# Notes:
+# - gymnasium covers FrozenLake-v1 usage; manual_play.py works with gymnasium API.
+# - numpy <2 to avoid potential API changes until code is validated with numpy 2.x.
+# - Remove Pillow if you do not use image icons in game_app/icons.
