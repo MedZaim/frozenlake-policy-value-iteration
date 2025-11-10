@@ -27,13 +27,20 @@ Ces deux approches permettent de trouver la politique optimale dans un environne
 ---
 ## Resources / Ressources
 - Report / Compte rendu (PDF): [deep_RL_compte_rendu1.pdf](./deep_RL_compte_rendu1.pdf)
-- Demo Video / Vidéo de démonstration: [video.mp4](./video.mp4)
+- Notebooks:
+  - [frosen_VALUE_ITERATION.ipynb](./frosen_VALUE_ITERATION.ipynb)
+  - [Frosen_POLICY_ITERATION.ipynb](./Frosen_POLICY_ITERATION.ipynb)
+- Requirements: [requirements.txt](./requirements.txt) (primarily `gym` or `gymnasium`, `numpy`, `matplotlib`)
 
-Inline demo (plays on GitHub):
+## 🎥 FrozenLake RL Demo
 
-<video src="./video.mp4" controls title="FrozenLake RL demo" width="720">
-  Your browser does not support the video tag. You can download it here: <a href="./video.mp4">video.mp4</a>.
-</video>
+<iframe width="720" height="405"
+        src="https://www.youtube.com/embed/57r_puXAYhg"
+        title="FrozenLake RL demo"
+        frameborder="0"
+        allowfullscreen>
+</iframe>
+
 
 ---
 ## 1. Environment & Problem Setting
